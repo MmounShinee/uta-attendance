@@ -1,0 +1,9 @@
+cat > .gitignore <<'GITIGNORE'
+.venv/
+__pycache__/
+*.pyc
+*.db
+.pytest_cache/
+release/
+*.tar.gz
+GITIGNORE
